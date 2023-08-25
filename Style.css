@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+header{
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 40px;
+    min-height: 150px;
+    background-color: rgb(255, 255, 255);
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+
+    padding: 20px;
+    margin:auto;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+body .logo{
+    color:aliceblue;
+    font-weight: 700px;
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    left: 20px;
+    background-color: black;
+    margin-left: 40px;
+
+}
+nav{
+   width: 1800px;
+}
+nav >a{
+    color:rgb(238, 238, 238);
+    padding: 6px 15px;
+    text-decoration: none;
+    font-weight:bold;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+nav > a:hover{
+    background-color:rgb(230, 230, 230);
+    color:rgb(255, 255, 255);
+}
+article{
+    background-color: rgb(0, 0, 0);
+    min-width: 150px;
+    padding-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: -10px;
+    padding-bottom: 30px;
+    left: 30px;
+    
+
+}
+article > h1{
+    font-size: 60px;
+    font-family: Brush Script MT;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+article >h3{
+    padding-bottom: 30px;
+    font-size: 34px;
+}
+
+.coluna{
+    float: left;
+    width: 33.33%;
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+main{
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+main >p{
+    font-size: 20px;
+    text-align: center;
+    text-align:justify;
+    margin-bottom: 10px;
+}
+main >h1{
+    color:black;
+    font-size: 40px;
+}
+.Titulo{
+    color:black;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#load-more-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 25px;
+
+
+    }
+footer{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+         text-align: center;
+
+}
+
